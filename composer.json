@@ -1,6 +1,10 @@
 {
     "name": "nekofar/coding-standard",
     "type": "phpcodesniffer-standard",
+    "keywords": [
+        "phpcs",
+        "standards"
+    ],
     "description": "Nekofar Coding Standard",
     "license": "MIT",
     "authors": [
