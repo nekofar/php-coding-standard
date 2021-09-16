@@ -3,9 +3,9 @@
 [![Packagist Version][icon-packagist]][link-packagist]
 [![PHP from Packagist][icon-php-version]][link-packagist]
 [![Packagist Downloads][icon-downloads]][link-packagist]
+[![Workflow Status][icon-workflow]][link-workflow]
 [![License][icon-license]][link-license]
 [![Twitter: nekofar][icon-twitter]][link-twitter]
-<!-- [![Tests Status][icon-workflow]][link-workflow] -->
 <!-- [![Coverage Status][icon-coverage]][link-coverage] -->
 
 > Some of useful coding standards for PHP projects.
@@ -30,11 +30,11 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [icon-twitter]: https://img.shields.io/twitter/follow/nekofar.svg?style=flat
 [icon-coverage]: https://codecov.io/gh/nekofar/php-coding-standard/graph/badge.svg
 [icon-license]: https://img.shields.io/github/license/nekofar/php-coding-standard.svg
-[icon-workflow]: https://img.shields.io/github/workflow/status/nekofar/php-coding-standard/Tests
+[icon-workflow]: https://img.shields.io/github/workflow/status/nekofar/php-coding-standard/PHP%20Composer
 [icon-downloads]: https://img.shields.io/packagist/dt/nekofar/coding-standard
 
 [link-packagist]: https://packagist.org/packages/nekofar/coding-standard
 [link-twitter]: https://twitter.com/nekofar
 [link-coverage]: https://codecov.io/gh/nekofar/php-coding-standard
 [link-license]: https://github.com/nekofar/php-coding-standard/blob/master/LICENSE.md
-[link-workflow]: https://github.com/nekofar/php-coding-standard/actions/workflows/tests.yml
+[link-workflow]: https://github.com/nekofar/php-coding-standard/actions/workflows/php.yml
