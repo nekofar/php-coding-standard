@@ -1,0 +1,13 @@
+{
+    "name": "nekofar/coding-standard",
+    "description": "Nekofar Coding Standard",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milad Nekofar",
+            "email": "milad@nekofar.com"
+        }
+    ],
+    "require": {}
+}
