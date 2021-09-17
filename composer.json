@@ -25,6 +25,9 @@
     "require-dev": {
         "roave/security-advisories": "dev-latest"
     },
+    "suggest": {
+        "symplify/coding-standard": "Coding Standard checkers for PHP projects with focus on Clean Architecture."
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
