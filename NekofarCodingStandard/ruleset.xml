@@ -109,4 +109,6 @@
 
     <!-- Enforces using only name for namespace references -->
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly"/>
+
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
 </ruleset>
