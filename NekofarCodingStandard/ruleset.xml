@@ -107,4 +107,11 @@
         </properties>
     </rule>
 
+    <!-- Looks for unused imports from other namespaces everywhere. -->
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+        <properties>
+            <property name="searchAnnotations" value="true"/>
+        </properties>
+    </rule>
+
 </ruleset>
