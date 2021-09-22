@@ -117,4 +117,8 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.Functions.StaticClosure">
+        <type>warning</type>
+    </rule>
+
 </ruleset>
