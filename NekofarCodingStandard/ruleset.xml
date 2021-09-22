@@ -25,6 +25,7 @@
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch" />
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName" />
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
         <exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber" />
