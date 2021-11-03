@@ -1,6 +1,56 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.10] - 2021-11-03
+
+### Miscellaneous Tasks
+
+- Bump actions/checkout from 2.3.4 to 2.3.5
+- Bump actions/checkout from 2.3.5 to 2.4.0
+
+## [1.2.9] - 2021-09-26
+
+### Miscellaneous Tasks
+
+- Ignore github configuration folder
+
+## [1.2.8] - 2021-09-26
+
+### Miscellaneous Tasks
+
+- Ignore extra files from export
+
+## [1.2.7] - 2021-09-22
+
+### Miscellaneous Tasks
+
+- Change type of `StaticClosure` from `SlevomatCodingStandard` rules for `Functions` to warning
+
+## [1.2.6] - 2021-09-22
+
+### Miscellaneous Tasks
+
+- Exclude `ParamNameNoMatch` from `Symfony` rules for `FunctionComment`
+
+## [1.2.5] - 2021-09-22
+
+### Miscellaneous Tasks
+
+- Exclude changelog commits from changelog
+- Exclude `ParamNameNoMatch` from `Squiz` rules for `FunctionComment`
+
+## [1.2.4] - 2021-09-21
+
+### Miscellaneous Tasks
+
+- Exclude fully qualified class name in annotation rule
+
+## [1.2.3] - 2021-09-21
+
+### Miscellaneous Tasks
+
+- Replace `standard-version` by `git-cliff` for generate changelog
+
 ## [1.2.2] - 2021-09-20
 
 ### Miscellaneous Tasks
