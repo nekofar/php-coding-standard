@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### Documentation
+
+- Improve the dependabot configuration file
+
+### Miscellaneous Tasks
+
+- Bump actions/cache from 2.1.6 to 2.1.7
+- Update github funding configs
+- Solve github funding broken link issue
+- Bump orhun/git-cliff-action from 1.1.5 to 1.1.6
+
 ## [1.2.10] - 2021-11-03
 
 ### Miscellaneous Tasks
