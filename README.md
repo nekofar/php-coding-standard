@@ -18,7 +18,7 @@ To get started, install the package using composer:
 composer require nekofar/coding-standard --dev
 ```
 
-Requires PHP 7.3 or newer.
+Requires PHP 8.0 or newer.
 
 ## License
 
