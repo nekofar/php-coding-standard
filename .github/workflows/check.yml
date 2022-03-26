@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Check
 
 on:
   # Trigger the workflow on pushes to only the 'master', 'support' and 'release' branches
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  check:
 
     runs-on: ubuntu-latest
 
