@@ -17,6 +17,7 @@
     </rule>
 
     <rule ref="Squiz.Commenting.FunctionComment">
+        <exclude name="Squiz.Commenting.FunctionComment.Missing" />
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
         <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
