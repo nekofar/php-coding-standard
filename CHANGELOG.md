@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.1] - 2022-03-26
+
+### Bug Fixes
+
+- Update `testVersion` for `PHPCompatibility`
+
+### Documentation
+
+- Update required version on readme file
+
 ## [2.0.0] - 2022-03-26
 
 ### Bug Fixes
@@ -10,6 +20,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Update `config.allow-plugins` on the `composer` configs
+- Update `git-cliff` configs to ignore pre releases
 
 ## [1.20.11] - 2022-03-19
 
