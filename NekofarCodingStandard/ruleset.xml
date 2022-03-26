@@ -25,16 +25,16 @@
     </rule>
 
     <rule ref="Squiz.Commenting.FunctionComment">
-        <exclude name="Squiz.Commenting.FunctionComment.Missing" />
+        <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
-        <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint" />
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
-        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
-        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
-        <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch" />
-        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName" />
-        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
-        <exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/>
+        <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName"/>
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
+        <exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
     </rule>
 
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
@@ -45,48 +45,49 @@
     <!-- Symfony Coding Standard -->
     <rule ref="Symfony">
         <exclude name="Symfony.Commenting.ClassComment.Missing"/>
-        <exclude name="Symfony.Commenting.FunctionComment.Missing" />
-        <exclude name="Symfony.Commenting.FunctionComment.MissingParamTag" />
-        <exclude name="Symfony.Commenting.FunctionComment.MissingReturn" />
-        <exclude name="Symfony.Commenting.FunctionComment.ParamNameNoMatch" />
-        <exclude name="Symfony.Commenting.FunctionComment.SpacingAfterParamName" />
-        <exclude name="Symfony.Commenting.FunctionComment.SpacingAfterParamType" />
-        <exclude name="Symfony.Commenting.TypeHinting.Invalid" />
-        <exclude name="Symfony.Functions.Arguments.Invalid" />
-        <exclude name="Symfony.Functions.ScopeOrder.Invalid" />
+        <exclude name="Symfony.Commenting.FunctionComment.Missing"/>
+        <exclude name="Symfony.Commenting.FunctionComment.MissingParamTag"/>
+        <exclude name="Symfony.Commenting.FunctionComment.MissingReturn"/>
+        <exclude name="Symfony.Commenting.FunctionComment.ParamNameNoMatch"/>
+        <exclude name="Symfony.Commenting.FunctionComment.SpacingAfterParamName"/>
+        <exclude name="Symfony.Commenting.FunctionComment.SpacingAfterParamType"/>
+        <exclude name="Symfony.Commenting.TypeHinting.Invalid"/>
+        <exclude name="Symfony.Functions.Arguments.Invalid"/>
+        <exclude name="Symfony.Functions.ScopeOrder.Invalid"/>
     </rule>
 
     <!-- Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard">
-        <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace" />
-        <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace" />
-        <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty" />
-        <exclude name="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature" />
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming" />
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming" />
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming" />
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming.SuperfluousSuffix" />
-        <exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountBeforeFirstUse" />
-        <exclude name="SlevomatCodingStandard.Commenting.EmptyComment.EmptyComment" />
-        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment" />
-        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment" />
-        <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison.DisallowedYodaComparison" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses" />
-        <exclude name="SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition.RequiredSingleLineCondition" />
-        <exclude name="SlevomatCodingStandard.Files.FunctionLength.FunctionLength" />
-        <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName" />
-        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma" />
-        <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength" />
-        <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall" />
+        <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
+        <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
+        <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty"/>
+        <exclude name="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming.SuperfluousSuffix"/>
+        <exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountBeforeFirstUse"/>
+        <exclude name="SlevomatCodingStandard.Commenting.EmptyComment.EmptyComment"/>
+        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
+        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
+        <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison.DisallowedYodaComparison"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses"/>
+        <exclude
+                name="SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition.RequiredSingleLineCondition"/>
+        <exclude name="SlevomatCodingStandard.Files.FunctionLength.FunctionLength"/>
+        <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName"/>
+        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma"/>
+        <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength"/>
+        <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
-        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions.NonFullyQualifiedException" />
-        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified" />
-        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified" />
-        <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces.NonFullyQualified" />
-        <exclude name="SlevomatCodingStandard.Namespaces.UseSpacing" />
-        <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion" />
-        <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint" />
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions.NonFullyQualifiedException"/>
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified"/>
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
+        <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces.NonFullyQualified"/>
+        <exclude name="SlevomatCodingStandard.Namespaces.UseSpacing"/>
+        <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint"/>
     </rule>
 
     <!-- Enforces having declare at the top of each PHP file. -->
