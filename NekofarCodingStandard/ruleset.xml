@@ -44,6 +44,7 @@
 
     <!-- Symfony Coding Standard -->
     <rule ref="Symfony">
+        <exclude name="Symfony.Commenting.ClassComment.Missing"/>
         <exclude name="Symfony.Commenting.FunctionComment.Missing" />
         <exclude name="Symfony.Commenting.FunctionComment.MissingParamTag" />
         <exclude name="Symfony.Commenting.FunctionComment.MissingReturn" />
