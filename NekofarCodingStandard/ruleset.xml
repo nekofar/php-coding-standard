@@ -58,6 +58,7 @@
 
     <!-- Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard">
+        <exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty"/>
