@@ -1,7 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [2.0.0] - 2022-03-26
+
+### Bug Fixes
+
+- Drop support for version 7.x and earlier
+
+### Miscellaneous Tasks
+
+- Update `config.allow-plugins` on the `composer` configs
+
+## [1.20.11] - 2022-03-19
 
 ### Documentation
 
