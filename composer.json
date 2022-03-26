@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^8.0",
         "escapestudios/symfony2-coding-standard": "^3.12",
         "phpcompatibility/php-compatibility": "^9.3",
         "sirbrillig/phpcs-import-detection": "^1.3",
