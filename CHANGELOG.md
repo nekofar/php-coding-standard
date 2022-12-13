@@ -1,6 +1,59 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.9] - 2022-12-13
+
+### Miscellaneous Tasks
+
+- Update slevomat/coding-standard requirement
+
+## [2.0.8] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `DisallowConstructorPropertyPromotion` from `SlevomatCodingStandard`
+
+## [2.0.7] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `DisallowTrailingCommaInDeclaration` from `SlevomatCodingStandard`
+
+## [2.0.6] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `FunctionComment.Missing` from `Symfony`
+- Exclude `ClassComment.Missing` from `Symfony`
+
+### Styling
+
+- Reformat whitespaces over `ruleset`
+
+## [2.0.5] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `Missing` from `ClassComment` and `VariableComment`
+
+## [2.0.4] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `FunctionComment.Missing` from `Squiz`
+
+## [2.0.3] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `ClassComment` and `VariableComment` from `Squiz`
+
+## [2.0.2] - 2022-03-26
+
+### Bug Fixes
+
+- Exclude `SuperfluousExceptionNaming` from `SlevomatCodingStandard`
+
 ## [2.0.1] - 2022-03-26
 
 ### Bug Fixes
