@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.11] - 2023-01-12
+
+### Documentation
+
+- Update workflow badge url over readme file
+
 ## [2.0.9] - 2022-12-13
 
 ### Miscellaneous Tasks
