@@ -27,7 +27,7 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 ---
 [icon-packagist]: https://img.shields.io/packagist/v/nekofar/coding-standard.svg
 [icon-php-version]: https://img.shields.io/packagist/php-v/nekofar/coding-standard.svg
-[icon-twitter]: https://img.shields.io/twitter/follow/nekofar.svg?style=flat
+[icon-twitter]: https://img.shields.io/badge/follow-%40nekofar-1DA1F2?logo=twitter&style=flat
 [icon-coverage]: https://codecov.io/gh/nekofar/php-coding-standard/graph/badge.svg
 [icon-license]: https://img.shields.io/github/license/nekofar/php-coding-standard.svg
 [icon-workflow]: https://img.shields.io/github/actions/workflow/status/nekofar/php-coding-standard/check.yml
