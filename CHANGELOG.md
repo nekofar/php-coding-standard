@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2023-04-27
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.0 to 3.5.2 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump `php` from `^8.0` to `>=8.1`
+
 ## [2.0.12] - 2023-04-04
 
 ### <!-- 05 -->Documentation
