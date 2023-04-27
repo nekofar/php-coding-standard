@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.2] - 2023-04-27
+
+### <!-- 02 -->Bug Fixes
+
+- Remove `linesCountBeforeDeclare` for `DeclareStrictTypes`
+
 ## [3.0.1] - 2023-04-27
 
 ### <!-- 02 -->Bug Fixes

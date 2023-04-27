@@ -95,7 +95,6 @@
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="spacesCountAroundEqualsSign" value="0"/>
-            <property name="linesCountBeforeDeclare" value="2"/>
         </properties>
     </rule>
 
