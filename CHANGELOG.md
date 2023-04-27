@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2023-04-27
+
+### <!-- 02 -->Bug Fixes
+
+- Replace some of deprecated settings for `DeclareStrictTypes`
+
 ## [3.0.0] - 2023-04-27
 
 ### <!-- 07 -->Continuous Integrations
