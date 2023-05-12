@@ -64,8 +64,8 @@
         <exclude name="SlevomatCodingStandard.Classes.ForbiddenPublicProperty.ForbiddenPublicProperty"/>
         <exclude name="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature.RequiredSingleLineSignature"/>
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming"/>
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming"/>
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming.SuperfluousSuffix"/>
         <exclude name="SlevomatCodingStandard.Classes.TraitUseSpacing.IncorrectLinesCountBeforeFirstUse"/>
         <exclude name="SlevomatCodingStandard.Commenting.EmptyComment.EmptyComment"/>
@@ -78,9 +78,11 @@
         <exclude name="SlevomatCodingStandard.Files.FunctionLength.FunctionLength"/>
         <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName"/>
         <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma"/>
-        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration.DisallowedTrailingComma" />
+        <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration.DisallowedTrailingComma"/>
         <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength"/>
+        <exclude name="SlevomatCodingStandard.Functions.RequireArrowFunction"/>
         <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall"/>
+        <exclude name="SlevomatCodingStandard.Functions.UnusedParameter"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions.NonFullyQualifiedException"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified"/>
@@ -89,6 +91,7 @@
         <exclude name="SlevomatCodingStandard.Namespaces.UseSpacing"/>
         <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
         <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint"/>
+        <exclude name="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     </rule>
 
     <!-- Enforces having declare at the top of each PHP file. -->
