@@ -8,7 +8,7 @@
     <rule ref="PHPCompatibility"/>
 
     <!-- Check for cross-version support for PHP 8.0 and higher. -->
-    <config name="testVersion" value="8.0-"/>
+    <config name="testVersion" value="8.1-"/>
 
     <rule ref="Squiz.Strings.ConcatenationSpacing">
         <properties>
