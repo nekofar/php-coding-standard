@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.4] - 2023-05-12
+
+### <!-- 02 -->Bug Fixes
+
+- Exclude `RequireArrowFunction` from `SlevomatCodingStandard`
+- Exclude `UnusedParameter` from `SlevomatCodingStandard`
+- Exclude `DisallowSuperGlobalVariable` from `SlevomatCodingStandard`
+
 ## [3.0.3] - 2023-05-12
 
 ### <!-- 02 -->Bug Fixes
