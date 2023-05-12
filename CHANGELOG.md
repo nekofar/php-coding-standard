@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.3] - 2023-05-12
+
+### <!-- 02 -->Bug Fixes
+
+- Change `testVersion` for `PHPCompatibility` to `8.1-`
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.5 to 2.0.6 
+- Change `open-pull-requests-limit` from 10 to 20
+
 ## [3.0.2] - 2023-04-27
 
 ### <!-- 02 -->Bug Fixes
