@@ -2,6 +2,7 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Nekofar Coding Standard"
          xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
 
+    <!-- Enable PSR-12 coding standard -->
     <rule ref="PSR12"/>
 
     <!-- Run against the PHPCompatibility ruleset -->
@@ -10,25 +11,30 @@
     <!-- Check for cross-version support for PHP 8.0 and higher. -->
     <config name="testVersion" value="8.1-"/>
 
+    <!-- Ensure proper spacing around string concatenation -->
     <rule ref="Squiz.Strings.ConcatenationSpacing">
         <properties>
             <property name="spacing" value="1"/>
         </properties>
     </rule>
 
+    <!-- Exclude missing class comment -->
     <rule ref="Squiz.Commenting.ClassComment">
         <exclude name="Squiz.Commenting.ClassComment.Missing"/>
     </rule>
 
+    <!-- Exclude missing variable comment -->
     <rule ref="Squiz.Commenting.VariableComment">
         <exclude name="Squiz.Commenting.VariableComment.Missing"/>
     </rule>
 
+    <!-- Exclude various missing function comment cases -->
     <rule ref="Squiz.Commenting.FunctionComment">
-        <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
         <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>
+        <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamName"/>
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
         <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/>
         <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
@@ -37,6 +43,7 @@
         <exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
     </rule>
 
+    <!-- Detect problems with function comment throw tags -->
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
 
     <!-- Detect problems with variables -->
@@ -46,6 +53,7 @@
     <rule ref="Symfony">
         <exclude name="Symfony.Commenting.ClassComment.Missing"/>
         <exclude name="Symfony.Commenting.FunctionComment.Missing"/>
+        <exclude name="Symfony.Commenting.FunctionComment.MissingParamName"/>
         <exclude name="Symfony.Commenting.FunctionComment.MissingParamTag"/>
         <exclude name="Symfony.Commenting.FunctionComment.MissingReturn"/>
         <exclude name="Symfony.Commenting.FunctionComment.ParamNameNoMatch"/>
@@ -58,6 +66,8 @@
 
     <!-- Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard">
+        <!-- Exclude various SlevomatCodingStandard rules -->
+        <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys"/>
         <exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
@@ -72,29 +82,35 @@
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
         <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowNullSafeObjectOperator"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison.DisallowedYodaComparison"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireSingleLineCondition.RequiredSingleLineCondition"/>
         <exclude name="SlevomatCodingStandard.Files.FunctionLength.FunctionLength"/>
         <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName"/>
+        <exclude name="SlevomatCodingStandard.Functions.DisallowNamedArguments"/>
         <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall.DisallowedTrailingComma"/>
         <exclude name="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration.DisallowedTrailingComma"/>
         <exclude name="SlevomatCodingStandard.Functions.FunctionLength.FunctionLength"/>
         <exclude name="SlevomatCodingStandard.Functions.RequireArrowFunction"/>
         <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall"/>
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter"/>
+        <exclude name="SlevomatCodingStandard.Functions.UselessParameterDefaultValue"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions.NonFullyQualifiedException"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Namespaces.UseSpacing"/>
+        <exclude name="SlevomatCodingStandard.Numbers.DisallowNumericLiteralSeparator"/>
         <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
-        <exclude name="SlevomatCodingStandard.TypeHints.LongTypeHints.UsedLongTypeHint"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
         <exclude name="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     </rule>
 
-    <!-- Enforces having declare at the top of each PHP file. -->
+    <!-- Enforces having declare(strict_types=1) at the top of each PHP file -->
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="spacesCountAroundEqualsSign" value="0"/>
@@ -108,14 +124,14 @@
         </properties>
     </rule>
 
-    <!-- Enforces lines count between different class members, eg. between last property and first method. -->
+    <!-- Enforces lines count between different class members -->
     <rule ref="SlevomatCodingStandard.Classes.ClassMemberSpacing">
         <properties>
             <property name="linesCountBetweenMembers" value="1"/>
         </properties>
     </rule>
 
-    <!-- Enforces that there is one blank line between methods -->
+    <!-- Enforces one blank line between methods -->
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing">
         <properties>
             <property name="minLinesCount" value="1"/>
@@ -123,15 +139,23 @@
         </properties>
     </rule>
 
-    <!-- Looks for unused imports from other namespaces everywhere. -->
+    <!-- Looks for unused imports from other namespaces -->
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
             <property name="searchAnnotations" value="true"/>
         </properties>
     </rule>
 
+    <!-- Warns against using static closures -->
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure">
         <type>warning</type>
+    </rule>
+
+    <!-- Ignore spaces in annotations -->
+    <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces">
+        <properties>
+            <property name="ignoreSpacesInAnnotation" value="true"/>
+        </properties>
     </rule>
 
 </ruleset>
