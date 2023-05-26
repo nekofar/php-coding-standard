@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.5] - 2023-05-26
+
+### <!-- 02 -->Bug Fixes
+
+- Solve some issues related to typehints
+- Exclude sorting array keys alphabetically
+- Exclude requiring multiline ternary operators
+- Exclude disallowing named arguments
+- Exclude functions useless parameters default value
+- Exclude disallowing numeric literal separators
+- Exclude disallowing null safe object operators
+- Ignore duplicate spaces in annotations
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Improve ruleset comments for better readability
+
 ## [3.0.4] - 2023-05-12
 
 ### <!-- 02 -->Bug Fixes
