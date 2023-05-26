@@ -67,6 +67,7 @@
     <!-- Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard">
         <!-- Exclude various SlevomatCodingStandard rules -->
+        <exclude name="SlevomatCodingStandard.Arrays.AlphabeticallySortedByKeys"/>
         <exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
