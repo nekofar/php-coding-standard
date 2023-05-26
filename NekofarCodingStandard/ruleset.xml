@@ -82,6 +82,7 @@
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
         <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.DisallowNullSafeObjectOperator"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison.DisallowedYodaComparison"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator"/>
