@@ -95,6 +95,7 @@
         <exclude name="SlevomatCodingStandard.Functions.RequireArrowFunction"/>
         <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall"/>
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter"/>
+        <exclude name="SlevomatCodingStandard.Functions.UselessParameterDefaultValue"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions.NonFullyQualifiedException"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants.NonFullyQualified"/>
