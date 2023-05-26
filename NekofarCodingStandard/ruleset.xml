@@ -151,4 +151,11 @@
         <type>warning</type>
     </rule>
 
+    <!-- Ignore spaces in annotations -->
+    <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces">
+        <properties>
+            <property name="ignoreSpacesInAnnotation" value="true"/>
+        </properties>
+    </rule>
+
 </ruleset>
