@@ -2,6 +2,7 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Nekofar Coding Standard"
          xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
 
+    <!-- Enable PSR-12 coding standard -->
     <rule ref="PSR12"/>
 
     <!-- Run against the PHPCompatibility ruleset -->
@@ -10,20 +11,24 @@
     <!-- Check for cross-version support for PHP 8.0 and higher. -->
     <config name="testVersion" value="8.1-"/>
 
+    <!-- Ensure proper spacing around string concatenation -->
     <rule ref="Squiz.Strings.ConcatenationSpacing">
         <properties>
             <property name="spacing" value="1"/>
         </properties>
     </rule>
 
+    <!-- Exclude missing class comment -->
     <rule ref="Squiz.Commenting.ClassComment">
         <exclude name="Squiz.Commenting.ClassComment.Missing"/>
     </rule>
 
+    <!-- Exclude missing variable comment -->
     <rule ref="Squiz.Commenting.VariableComment">
         <exclude name="Squiz.Commenting.VariableComment.Missing"/>
     </rule>
 
+    <!-- Exclude various missing function comment cases -->
     <rule ref="Squiz.Commenting.FunctionComment">
         <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
@@ -37,6 +42,7 @@
         <exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
     </rule>
 
+    <!-- Detect problems with function comment throw tags -->
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
 
     <!-- Detect problems with variables -->
@@ -58,6 +64,7 @@
 
     <!-- Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard">
+        <!-- Exclude various SlevomatCodingStandard rules -->
         <exclude name="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineAfterOpeningBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.NoEmptyLineBeforeClosingBrace"/>
@@ -94,7 +101,7 @@
         <exclude name="SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable"/>
     </rule>
 
-    <!-- Enforces having declare at the top of each PHP file. -->
+    <!-- Enforces having declare(strict_types=1) at the top of each PHP file -->
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="spacesCountAroundEqualsSign" value="0"/>
@@ -108,14 +115,14 @@
         </properties>
     </rule>
 
-    <!-- Enforces lines count between different class members, eg. between last property and first method. -->
+    <!-- Enforces lines count between different class members -->
     <rule ref="SlevomatCodingStandard.Classes.ClassMemberSpacing">
         <properties>
             <property name="linesCountBetweenMembers" value="1"/>
         </properties>
     </rule>
 
-    <!-- Enforces that there is one blank line between methods -->
+    <!-- Enforces one blank line between methods -->
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing">
         <properties>
             <property name="minLinesCount" value="1"/>
@@ -123,13 +130,14 @@
         </properties>
     </rule>
 
-    <!-- Looks for unused imports from other namespaces everywhere. -->
+    <!-- Looks for unused imports from other namespaces -->
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
             <property name="searchAnnotations" value="true"/>
         </properties>
     </rule>
 
+    <!-- Warns against using static closures -->
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure">
         <type>warning</type>
     </rule>
