@@ -102,6 +102,7 @@
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Namespaces.UseSpacing"/>
+        <exclude name="SlevomatCodingStandard.Numbers.DisallowNumericLiteralSeparator"/>
         <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
         <exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax"/>
         <exclude name="SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint"/>
