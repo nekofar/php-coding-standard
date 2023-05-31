@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.6] - 2023-05-31
+
+### <!-- 02 -->Bug Fixes
+
+- Exclude function incorrect param var name
+
 ## [3.0.5] - 2023-05-26
 
 ### <!-- 02 -->Bug Fixes
