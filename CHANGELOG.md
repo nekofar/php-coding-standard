@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.8] - 2023-06-01
+
+### <!-- 02 -->Bug Fixes
+
+- Exclude variable comment missing war
+
 ## [3.0.7] - 2023-06-01
 
 ### <!-- 02 -->Bug Fixes
