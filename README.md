@@ -6,6 +6,7 @@
 [![Workflow Status][icon-workflow]][link-workflow]
 [![License][icon-license]][link-license]
 [![Twitter: nekofar][icon-twitter]][link-twitter]
+[![Donate](https://img.shields.io/badge/donate-nekofar.crypto-a2b9bc?logo=ko-fi&logoColor=white)](https://ud.me/nekofar.crypto)
 <!-- [![Coverage Status][icon-coverage]][link-coverage] -->
 
 > Some of useful coding standards for PHP projects.
